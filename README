@@ -1,0 +1,16 @@
+This project consist ins a simple Apache Log Anonymizer. It reads Apache logs from an 
+input folder and writes the anonymized logs in an output folder.
+
+The anonymization is done by hashing the IP using MD5.
+
+The project is built using Netbeans 6.7.
+
+To run it, build the project and use:
+
+java -jar <jar file>  <input folder>  <output folder>
+
+Be sure you have proper permissions on both the input and output folders
+
+
+
+
